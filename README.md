@@ -3,7 +3,7 @@
 A small mod that fixes the problem with a black screen when starting the game.
 Relevant for version 2.1.4.
 # Installation
-1. Download and install [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases).
+1. Download and install [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases). Minimum required version - v0.6.3.
 2. Download the [mod](https://github.com/Climeron/PvZ-Fusion-BlackScreenFix/releases) (.dll) for your version of PvZ.
 3. Download [coremod](https://github.com/Climeron/PvZ-Fusion-Tools/releases) (.dll) version not higher than this mod version, but the latest possible.
 4. Paste the mod file into the Mods folder in the game directory.
@@ -15,7 +15,7 @@ The main menu might not be appeared because the game did not initialize its file
 Небольшой мод, исправляющий проблему с черным экраном при запуске игры.
 Актуально для версии 2.1.4.
 # Установка
-1. Скачайте и установите [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases).
+1. Скачайте и установите [MelonLoader](https://github.com/LavaGang/MelonLoader.Installer/releases). Минимально требуемая версия - v0.6.3
 2. Скачайте [мод](https://github.com/Climeron/PvZ-Fusion-BlackScreenFix/releases) (.dll) для вашей версии PvZ.
 3. Скачайте [мод ядро](https://github.com/Climeron/PvZ-Fusion-Tools/releases) (.dll) версии не выше версии этого мода, но последней возможной.
 4. Переместите файл мода в папку Mods в директории игры.
