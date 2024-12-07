@@ -34,15 +34,15 @@ using MelonLoader;
 // Можно задать все значения или принять номера сборки и редакции по умолчанию 
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion(BlackScreenFix.AssemblyInfo.VERSION)]
+[assembly: AssemblyFileVersion(BlackScreenFix.AssemblyInfo.VERSION)]
 
 namespace BlackScreenFix
 {
     public static class AssemblyInfo
     {
         public const string MODE_NAME = nameof(BlackScreenFix);
-        public const string VERSION = "214.0.0";
+        public const string VERSION = "215.0.0";
         public const string AUTHOR = "Climeron";
     }
 }

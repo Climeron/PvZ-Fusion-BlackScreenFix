@@ -34,13 +34,13 @@ namespace BlackScreenFix.Patches
                 if (FloatTryParse(stringValuesArray[2], out float productionInterval))
                     data.field_Public_Single_1 = productionInterval;
                 if (IntTryParse(stringValuesArray[3], out int attackDamage))
-                    data.field_Public_Int32_1 = attackDamage;
+                    data.attackDamage = attackDamage;
                 if (IntTryParse(stringValuesArray[4], out int maxHealth))
-                    data.field_Public_Int32_2 = maxHealth;
+                    data.field_Public_Int32_1 = maxHealth;
                 if (FloatTryParse(stringValuesArray[5], out float cooldown))
                     data.field_Public_Single_2 = cooldown;
                 if (IntTryParse(stringValuesArray[6], out int price))
-                    data.field_Public_Int32_3 = price;
+                    data.field_Public_Int32_2 = price;
                 PlantDataLoader.plantData[data.field_Public_Int32_0] = data;
             }
             return false;
