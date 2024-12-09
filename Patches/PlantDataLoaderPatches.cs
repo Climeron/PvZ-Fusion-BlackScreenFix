@@ -14,6 +14,11 @@ namespace BlackScreenFix.Patches
         [HarmonyPrefix]
         private static bool LoadPlantData()
         {
+            if (!Main.Instance.ToolsAreInstalled)
+            {
+                GameAPP.Instance.enabled = false;
+                return false;
+            }
             string text = Resources.Load<TextAsset>("plant_data").text;
             StringReader reader = new(text);
             bool firstLine = true;
