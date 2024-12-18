@@ -2,7 +2,9 @@
 using System.Runtime.InteropServices;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(BlackScreenFix.Main), BlackScreenFix.AssemblyInfo.MODE_NAME, BlackScreenFix.AssemblyInfo.VERSION, BlackScreenFix.AssemblyInfo.AUTHOR)]
+[assembly: MelonInfo(typeof(BlackScreenFix.Main), BlackScreenFix.AssemblyInfo.MODE_NAME, BlackScreenFix.AssemblyInfo.VERSION, BlackScreenFix.AssemblyInfo.AUTHOR, BlackScreenFix.AssemblyInfo.DOWNLOAD_LINK)]
+[assembly: MelonGame("LanPiaoPiao", "PlantsVsZombiesRH")]
+[assembly: MelonAdditionalDependencies("ClimeronToolsForPvZ")]
 
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
@@ -42,7 +44,8 @@ namespace BlackScreenFix
     public static class AssemblyInfo
     {
         public const string MODE_NAME = nameof(BlackScreenFix);
-        public const string VERSION = "215.0.0";
+        public const string VERSION = "216.0.0";
         public const string AUTHOR = "Climeron";
+        public const string DOWNLOAD_LINK = "https://github.com/Climeron/PvZ-Fusion-BlackScreenFix";
     }
 }
