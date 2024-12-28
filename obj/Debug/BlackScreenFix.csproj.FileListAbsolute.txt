@@ -167,3 +167,44 @@ F:\Games\PvZ Fusion 2.1.6\ModsProjects\BlackScreenFix\obj\Debug\BlackScreenFix.c
 F:\Games\PvZ Fusion 2.1.6\ModsProjects\BlackScreenFix\obj\Debug\BlackScreenFix.csproj.CopyComplete
 F:\Games\PvZ Fusion 2.1.6\ModsProjects\BlackScreenFix\obj\Debug\BlackScreenFix.dll
 F:\Games\PvZ Fusion 2.1.6\ModsProjects\BlackScreenFix\obj\Debug\BlackScreenFix.pdb
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\obj\Debug\BlackScreenFix.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\obj\Debug\BlackScreenFix.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\obj\Debug\BlackScreenFix.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\obj\Debug\BlackScreenFix.pdb
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\BlackScreenFix.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\BlackScreenFix.pdb
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Mono.Cecil.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Il2CppSystem.Core.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AsmResolver.DotNet.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AsmResolver.PE.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AsmResolver.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\MonoMod.Backports.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Il2CppSystem.Configuration.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Il2CppSystem.Xml.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\MonoMod.Utils.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\MonoMod.RuntimeDetour.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\bHapticsLib.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AssetRipper.VersionUtilities.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AssetsTools.NET.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Tomlet.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Microsoft.Diagnostics.Runtime.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Mono.Cecil.Rocks.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\AsmResolver.PE.File.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.TextCoreFontEngineModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.TextCoreTextEngineModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\MonoMod.ILHelpers.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\WebSocketDotNet.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\Microsoft.Diagnostics.NETCore.Client.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\bin\Debug\MelonLoader.xml
+C:\Users\user\Downloads\PvZ-Fusion-BlackScreenFix\obj\Debug\BlackScr.9F2D5C53.Up2Date

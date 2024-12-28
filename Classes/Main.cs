@@ -11,6 +11,7 @@ namespace BlackScreenFix
     {
         public static Main Instance { get; private set; }
         public bool ToolsAreInstalled { get; private set; }
+        private bool isNotRussian = Application.systemLanguage != SystemLanguage.Russian;
 
         public override void OnInitializeMelon()
         {
@@ -18,8 +19,10 @@ namespace BlackScreenFix
             Instance = this;
             CheckForInstalledTools();
         }
+
         private void CheckForInstalledTools() =>
             ToolsAreInstalled = RegisteredMelons.Any(mod => mod.Info.Name == nameof(ClimeronToolsForPvZ));
+
         public override void OnSceneWasLoaded(int buildIndex, string sceneName)
         {
             if (!ToolsAreInstalled)
@@ -28,6 +31,7 @@ namespace BlackScreenFix
                 CreateURLButton();
             }
         }
+
         private void CreateWarningMessage()
         {
             Canvas messageCanvas = new GameObject("WarningMessage").AddComponent<Canvas>();
@@ -36,10 +40,13 @@ namespace BlackScreenFix
             messageRectTransform.anchoredPosition = new(0, 1);
             TextMeshProUGUI textComponent = messageRectTransform.gameObject.AddComponent<TextMeshProUGUI>();
             textComponent.color = Color.red;
-            textComponent.text = $"Для работы BlackScreenFix необходимо установить мод {nameof(ClimeronToolsForPvZ)}!\nТребуемую версию можно найти в релизах.";
+
+            string warningMessage = isNotRussian ? $"To use BlackScreenFix, you need to install the mod {nameof(ClimeronToolsForPvZ)}!\nThe required version can be found in the releases." : $"Для работы BlackScreenFix необходимо установить мод {nameof(ClimeronToolsForPvZ)}!\nТребуемую версию можно найти в релизах.";
+            textComponent.text = warningMessage;
             textComponent.enableWordWrapping = false;
             textComponent.alignment = TextAlignmentOptions.Center;
         }
+
         private void CreateURLButton()
         {
             Canvas canvas = new GameObject("URLButton").AddComponent<Canvas>();
@@ -56,14 +63,16 @@ namespace BlackScreenFix
             TextMeshProUGUI textComponent = new GameObject("URLButtonText").AddComponent<TextMeshProUGUI>();
             textComponent.transform.SetParent(buttonRectTransform);
             textComponent.enableWordWrapping = false;
-            textComponent.text = "Открыть страницу с релизами";
+            textComponent.text = isNotRussian ? "Open the releases page": "Открыть страницу с релизами";
             textComponent.alignment = TextAlignmentOptions.Center;
+
             RectTransform textRectTransform = textComponent.GetComponent<RectTransform>();
             textRectTransform.localScale = Vector3.one;
             textRectTransform.anchorMin = Vector2.zero;
             textRectTransform.anchorMax = Vector2.one;
             textRectTransform.anchoredPosition = Vector2.zero;
         }
+
         private Action OpenURL() => delegate { Application.OpenURL("https://github.com/Climeron/PvZ-Fusion-BlackScreenFix/releases"); };
     }
 }
