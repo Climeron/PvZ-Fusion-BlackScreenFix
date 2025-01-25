@@ -33,7 +33,7 @@ namespace BlackScreenFix.Patches
                 PlantDataLoader.PlantData_ data = new();
                 string[] stringValuesArray = line.Split(',');
                 if (IntTryParse(stringValuesArray[0], out int plantType))
-                    data.field_Public_Int32_0 = plantType;
+                    data.field_Public_PlantType_0 = (PlantType)plantType;
                 if (FloatTryParse(stringValuesArray[1], out float attackInterval))
                     data.field_Public_Single_0 = attackInterval;
                 if (FloatTryParse(stringValuesArray[2], out float productionInterval))
@@ -41,12 +41,12 @@ namespace BlackScreenFix.Patches
                 if (IntTryParse(stringValuesArray[3], out int attackDamage))
                     data.attackDamage = attackDamage;
                 if (IntTryParse(stringValuesArray[4], out int maxHealth))
-                    data.field_Public_Int32_1 = maxHealth;
+                    data.field_Public_Int32_0 = maxHealth;
                 if (FloatTryParse(stringValuesArray[5], out float cooldown))
                     data.field_Public_Single_2 = cooldown;
                 if (IntTryParse(stringValuesArray[6], out int price))
-                    data.field_Public_Int32_2 = price;
-                PlantDataLoader.plantData[data.field_Public_Int32_0] = data;
+                    data.field_Public_Int32_1 = price;
+                PlantDataLoader.plantData[(int)data.field_Public_PlantType_0] = data;
             }
             return false;
         }
