@@ -171,7 +171,6 @@ F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\BlackScreenFix.dll
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\BlackScreenFix.pdb
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\0Harmony.dll
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\Assembly-CSharp.dll
-F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\ClimeronToolsForPvZ.dll
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\Il2CppInterop.Common.dll
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\Il2CppInterop.Generator.dll
 F:\Games\PvZ Fusion 2.2\ModsProjects\BlackScreenFix\bin\Debug\Il2CppInterop.HarmonySupport.dll
